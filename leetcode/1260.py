@@ -1,11 +1,8 @@
 class Solution:
     def shiftGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
         m = len(grid)
-        n = len(grid[0][:])
-        print(n, " n")
-        print(m, " m")
+        n = len(grid[0])
         temp = [ [ 0 for i in range(n) ] for j in range(m) ]
-        print(temp)
         for i in range(k):
             for x in range(m):
                 temp[x] = grid[x][n-1:] + grid[x][:n-1]
