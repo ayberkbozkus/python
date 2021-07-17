@@ -14,7 +14,7 @@ This project is a hobby project for learning Django.
 
  ```
  git clone https://github.com/ayberkbozkus/python/django_project.git
-
+ source venv/bin/activate
  ```
 ## Usage
 
