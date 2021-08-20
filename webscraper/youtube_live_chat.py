@@ -20,4 +20,6 @@ def youtube(url):
         space = "#"*20
         print(f'{author} : {message} \n {space}')
 
-youtube("https://www.youtube.com/live_chat?is_popout=1&v=EEIk7gwjgIM")
+print('Enter youtube live chat url:')
+url = input()
+youtube(url)
